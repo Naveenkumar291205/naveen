@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-slate-950 text-slate-100;
+  font-family: Inter, system-ui, sans-serif;
+  background-image: radial-gradient(circle at 20% 10%, rgba(139, 92, 246, 0.25), transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(94, 234, 212, 0.15), transparent 40%);
+}
+.glass {
+  @apply bg-white/5 border border-white/10 backdrop-blur-xl rounded-2xl;
+}
